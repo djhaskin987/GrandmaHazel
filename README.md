@@ -18,6 +18,8 @@ When I answer this question manually, place names and names follow these rules:
 
 So, we basicaly have an edit distance algorithm with these facts:
 
+
+
 1. deletion doesn't cost any consistency, but it does cost specificity
 2. Substitution costs little consistency at first, and not specificity, but lots the larger it is. This 
 is because it is easy to mistake a character, evenstring of characters, when digitizing a record; but after a 
